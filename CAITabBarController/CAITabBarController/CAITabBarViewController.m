@@ -27,18 +27,9 @@
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
-    
-}
-
-- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
     NSInteger index = [tabBarController.viewControllers indexOfObject:viewController];
     CAITabBar *tabBar = (CAITabBar *)self.tabBar;
     [tabBar animationAtIndex:index];
-    return NO;
-}
-
-- (void)tabBar:(UITabBar *)tabBar didBeginCustomizingItems:(NSArray *)items{
-    
 }
 
 @end
