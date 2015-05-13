@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCF381D1B031DB900E26F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF381C1B031DB900E26F84 /* main.m */; };
+		4BCF38201B031DB900E26F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF381F1B031DB900E26F84 /* AppDelegate.m */; };
+		4BCF38231B031DB900E26F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF38221B031DB900E26F84 /* ViewController.m */; };
+		4BCF38261B031DB900E26F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF38241B031DB900E26F84 /* Main.storyboard */; };
+		4BCF38281B031DB900E26F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF38271B031DB900E26F84 /* Images.xcassets */; };
+		4BCF382B1B031DB900E26F84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF38291B031DB900E26F84 /* LaunchScreen.xib */; };
+		4BCF38371B031DB900E26F84 /* CAITabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF38361B031DB900E26F84 /* CAITabBarControllerTests.m */; };
+		4BCF38431B031E7900E26F84 /* CAITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF38421B031E7900E26F84 /* CAITabBarViewController.m */; };
+		4BCF38461B0321C000E26F84 /* CAITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF38451B0321C000E26F84 /* CAITabBar.m */; };
+		4BCF38491B0323D200E26F84 /* UIView+showBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF38481B0323D200E26F84 /* UIView+showBorder.m */; };
+		4BCF384D1B03258A00E26F84 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF384C1B03258A00E26F84 /* 29.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCF38311B031DB900E26F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCF380F1B031DB900E26F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCF38161B031DB900E26F84;
+			remoteInfo = CAITabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCF38171B031DB900E26F84 /* CAITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCF381B1B031DB900E26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCF381C1B031DB900E26F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BCF381E1B031DB900E26F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BCF381F1B031DB900E26F84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BCF38211B031DB900E26F84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BCF38221B031DB900E26F84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BCF38251B031DB900E26F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCF38271B031DB900E26F84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BCF382A1B031DB900E26F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4BCF38301B031DB900E26F84 /* CAITabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAITabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCF38351B031DB900E26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCF38361B031DB900E26F84 /* CAITabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAITabBarControllerTests.m; sourceTree = "<group>"; };
+		4BCF38411B031E7900E26F84 /* CAITabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAITabBarViewController.h; sourceTree = "<group>"; };
+		4BCF38421B031E7900E26F84 /* CAITabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAITabBarViewController.m; sourceTree = "<group>"; };
+		4BCF38441B0321C000E26F84 /* CAITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAITabBar.h; sourceTree = "<group>"; };
+		4BCF38451B0321C000E26F84 /* CAITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAITabBar.m; sourceTree = "<group>"; };
+		4BCF38471B0323D200E26F84 /* UIView+showBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+showBorder.h"; sourceTree = "<group>"; };
+		4BCF38481B0323D200E26F84 /* UIView+showBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+showBorder.m"; sourceTree = "<group>"; };
+		4BCF384C1B03258A00E26F84 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCF38141B031DB900E26F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCF382D1B031DB900E26F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCF380E1B031DB900E26F84 = {
+			isa = PBXGroup;
+			children = (
+				4BCF38191B031DB900E26F84 /* CAITabBarController */,
+				4BCF38331B031DB900E26F84 /* CAITabBarControllerTests */,
+				4BCF38181B031DB900E26F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCF38181B031DB900E26F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF38171B031DB900E26F84 /* CAITabBarController.app */,
+				4BCF38301B031DB900E26F84 /* CAITabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCF38191B031DB900E26F84 /* CAITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF38401B031E5600E26F84 /* CAITabBarController */,
+				4BCF381E1B031DB900E26F84 /* AppDelegate.h */,
+				4BCF381F1B031DB900E26F84 /* AppDelegate.m */,
+				4BCF38211B031DB900E26F84 /* ViewController.h */,
+				4BCF38221B031DB900E26F84 /* ViewController.m */,
+				4BCF38241B031DB900E26F84 /* Main.storyboard */,
+				4BCF38271B031DB900E26F84 /* Images.xcassets */,
+				4BCF38291B031DB900E26F84 /* LaunchScreen.xib */,
+				4BCF381A1B031DB900E26F84 /* Supporting Files */,
+			);
+			path = CAITabBarController;
+			sourceTree = "<group>";
+		};
+		4BCF381A1B031DB900E26F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF381B1B031DB900E26F84 /* Info.plist */,
+				4BCF381C1B031DB900E26F84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BCF38331B031DB900E26F84 /* CAITabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF38361B031DB900E26F84 /* CAITabBarControllerTests.m */,
+				4BCF38341B031DB900E26F84 /* Supporting Files */,
+			);
+			path = CAITabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		4BCF38341B031DB900E26F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF38351B031DB900E26F84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BCF38401B031E5600E26F84 /* CAITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF384C1B03258A00E26F84 /* 29.png */,
+				4BCF38471B0323D200E26F84 /* UIView+showBorder.h */,
+				4BCF38481B0323D200E26F84 /* UIView+showBorder.m */,
+				4BCF38411B031E7900E26F84 /* CAITabBarViewController.h */,
+				4BCF38421B031E7900E26F84 /* CAITabBarViewController.m */,
+				4BCF38441B0321C000E26F84 /* CAITabBar.h */,
+				4BCF38451B0321C000E26F84 /* CAITabBar.m */,
+			);
+			name = CAITabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCF38161B031DB900E26F84 /* CAITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCF383A1B031DB900E26F84 /* Build configuration list for PBXNativeTarget "CAITabBarController" */;
+			buildPhases = (
+				4BCF38131B031DB900E26F84 /* Sources */,
+				4BCF38141B031DB900E26F84 /* Frameworks */,
+				4BCF38151B031DB900E26F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAITabBarController;
+			productName = CAITabBarController;
+			productReference = 4BCF38171B031DB900E26F84 /* CAITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCF382F1B031DB900E26F84 /* CAITabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCF383D1B031DB900E26F84 /* Build configuration list for PBXNativeTarget "CAITabBarControllerTests" */;
+			buildPhases = (
+				4BCF382C1B031DB900E26F84 /* Sources */,
+				4BCF382D1B031DB900E26F84 /* Frameworks */,
+				4BCF382E1B031DB900E26F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCF38321B031DB900E26F84 /* PBXTargetDependency */,
+			);
+			name = CAITabBarControllerTests;
+			productName = CAITabBarControllerTests;
+			productReference = 4BCF38301B031DB900E26F84 /* CAITabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCF380F1B031DB900E26F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAI;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = liyufeng;
+				TargetAttributes = {
+					4BCF38161B031DB900E26F84 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4BCF382F1B031DB900E26F84 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4BCF38161B031DB900E26F84;
+					};
+				};
+			};
+			buildConfigurationList = 4BCF38121B031DB900E26F84 /* Build configuration list for PBXProject "CAITabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCF380E1B031DB900E26F84;
+			productRefGroup = 4BCF38181B031DB900E26F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCF38161B031DB900E26F84 /* CAITabBarController */,
+				4BCF382F1B031DB900E26F84 /* CAITabBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCF38151B031DB900E26F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCF384D1B03258A00E26F84 /* 29.png in Resources */,
+				4BCF38261B031DB900E26F84 /* Main.storyboard in Resources */,
+				4BCF382B1B031DB900E26F84 /* LaunchScreen.xib in Resources */,
+				4BCF38281B031DB900E26F84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCF382E1B031DB900E26F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCF38131B031DB900E26F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCF38461B0321C000E26F84 /* CAITabBar.m in Sources */,
+				4BCF38491B0323D200E26F84 /* UIView+showBorder.m in Sources */,
+				4BCF38431B031E7900E26F84 /* CAITabBarViewController.m in Sources */,
+				4BCF38231B031DB900E26F84 /* ViewController.m in Sources */,
+				4BCF38201B031DB900E26F84 /* AppDelegate.m in Sources */,
+				4BCF381D1B031DB900E26F84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCF382C1B031DB900E26F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCF38371B031DB900E26F84 /* CAITabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCF38321B031DB900E26F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCF38161B031DB900E26F84 /* CAITabBarController */;
+			targetProxy = 4BCF38311B031DB900E26F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCF38241B031DB900E26F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCF38251B031DB900E26F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BCF38291B031DB900E26F84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCF382A1B031DB900E26F84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCF38381B031DB900E26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCF38391B031DB900E26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCF383B1B031DB900E26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BCF383C1B031DB900E26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BCF383E1B031DB900E26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAITabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAITabBarController.app/CAITabBarController";
+			};
+			name = Debug;
+		};
+		4BCF383F1B031DB900E26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CAITabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAITabBarController.app/CAITabBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCF38121B031DB900E26F84 /* Build configuration list for PBXProject "CAITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCF38381B031DB900E26F84 /* Debug */,
+				4BCF38391B031DB900E26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCF383A1B031DB900E26F84 /* Build configuration list for PBXNativeTarget "CAITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCF383B1B031DB900E26F84 /* Debug */,
+				4BCF383C1B031DB900E26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BCF383D1B031DB900E26F84 /* Build configuration list for PBXNativeTarget "CAITabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCF383E1B031DB900E26F84 /* Debug */,
+				4BCF383F1B031DB900E26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCF380F1B031DB900E26F84 /* Project object */;
+}
